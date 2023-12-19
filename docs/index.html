@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triumph Street Triple Edition Moto2</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui/dist/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui/dist/semantic.min.js"></script>
 </head>
+
 <body>
-    ez
+  <div class="container">
+    <h1 class="ui header">Triumph Street Triple Edition Moto2</h1>
+
+    <div class="slider">
+        <div><img src="street-triple-moto2.jpg" alt="Image 1"></div>
+        <div><img src="street-triple-moto2-2.jpg" alt="Image 2"></div>
+        <div><img src="street-triple-moto2-3.jpg" alt="Image 3"></div>
+      </div>   
+
+    <p class="pres">
+      La Triumph Street Triple Edition Moto2 est une moto sportive hautement performante qui rend hommage à la domination de Triumph dans le championnat du monde Moto2. Avec son design agressif et ses performances exceptionnelles, cette moto est conçue pour les amateurs de vitesse et d'adrénaline.
+    </p>
+
+    <div class="specs">
+      <h2 class="ui header">Spécifications techniques :</h2>
+      <table class="ui celled table">
+        <tr>
+          <th>Modèle</th>
+          <td>Triumph Street Triple Edition Moto2</td>
+        </tr>
+        <tr>
+          <th>Moteur</th>
+          <td>Triple 765 cm³, 4 temps, refroidissement liquide</td>
+        </tr>
+        <tr>
+          <th>Puissance</th>
+          <td>130 CV (95.6kW) @12000 tr/mn</td>
+        </tr>
+        <tr>
+          <th>Couple</th>
+          <td>80Nm@ 9500 tr/mn</td>
+        </tr>
+        <tr>
+          <th>Poids</th>
+          <td>188 kg</td>
+        </tr>
+        <tr>
+          <th>Freins</th>
+          <td>Étriers Brembo monoblocs radiaux à 4 pistons, disques flottants</td>
+        </tr>
+        <tr>
+          <th>Suspension</th>
+          <td>Fourche inversée Öhlins NIX30, amortissement réglable en compression et en détente, ainsi qu'en précharge</td>
+        </tr>
+        <tr>
+          <th>Plein</th>
+          <td>15 L</td>
+        </tr>
+        <tr>
+          <th>Hauteur de la selle</th>
+          <td>839 mm</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        infinite: true,
+        speed: 1000,
+        fade: true,
+        cssEase: 'linear',
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+      });
+    });
+  </script>
 </body>
+
 </html>
